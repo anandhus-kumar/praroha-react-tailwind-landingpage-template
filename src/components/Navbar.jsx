@@ -11,11 +11,11 @@ const Navbar = () => {
     setIsOpen((open) => !open);
   }
   return (
-    <nav className=" border-b-2 border-secondary/20 h-18 sm:h-20 md:h-24 ">
+    <nav className=" border-b-2 border-secondary/20 h-18 sm:h-20 md:h-24 bg-white/20  backdrop-blur-2xl">
       <div className="max-w-7xl mx-auto flex justify-between items-center h-full">
         <div className="pl-2">
           <a href="#">
-            <img src={logo} width={150} height={100} className="aspect-auto " />
+            <img src={logo} width={160} height={100} className="aspect-auto " />
           </a>
         </div>
 
@@ -53,7 +53,7 @@ const Navbar = () => {
           <a
             key={index}
             href={link.link}
-            className="pl-6 uppercase block py-2 tracking-wide text-sm font-medium text-primary hover:text-secondary"
+            className="pl-6 uppercase block py-3 tracking-wide text-sm font-medium text-primary hover:text-secondary"
           >
             {" "}
             {link.name}

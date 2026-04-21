@@ -1,4 +1,3 @@
-import hero from "../assets/hero.jpg";
 import flowerImage from "../assets/flowerimage.jpg";
 import fruitImage from "../assets/fruitplant.jpg";
 import indoorImage from "../assets/indoorplant.jpg";
@@ -34,10 +33,9 @@ export const LINKS = [
 ];
 
 export const HERO_CONTENT = {
-  title: "Bring Nature Closer to Your Home 🌿",
+  title: "Bring Nature Closer to Your Home ",
   subtitle:
     "Discover healthy plants, flowers, and trees to transform your space into a green paradise with Praroha Nursery.",
-  image: hero,
 };
 
 export const SERVICES_CONTENT = [
